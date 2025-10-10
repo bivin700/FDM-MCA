@@ -2,49 +2,60 @@
 import {
   AppstoreAddOutlined,
   AntDesignOutlined,
-  BarcodeOutlined,
-  BgColorsOutlined,
+  SnippetsOutlined,
+  InboxOutlined,
   FontSizeOutlined,
-  LoadingOutlined
+  LoadingOutlined,
+  UserOutlined,
+  CoffeeOutlined
 } from '@ant-design/icons';
 
 // icons
 const icons = {
   FontSizeOutlined,
-  BgColorsOutlined,
-  BarcodeOutlined,
+  InboxOutlined,
+  SnippetsOutlined,
   AntDesignOutlined,
   LoadingOutlined,
-  AppstoreAddOutlined
+  AppstoreAddOutlined,
+  UserOutlined,
+  CoffeeOutlined
 };
 
 // ==============================|| MENU ITEMS - UTILITIES ||============================== //
 
 const utilities = {
-  id: 'utilities',
-  title: 'Utilities',
+  id: 'role_management',
+  title: 'Role management',
   type: 'group',
   children: [
     {
-      id: 'util-typography',
-      title: 'Typography',
+      id: 'role-customer',
+      title: 'Customer',
       type: 'item',
       url: '/typography',
-      icon: icons.FontSizeOutlined
+      icon: icons.UserOutlined
     },
     {
-      id: 'util-color',
-      title: 'Color',
+      id: 'role-chef',
+      title: 'Chef',
       type: 'item',
       url: '/color',
-      icon: icons.BgColorsOutlined
+      icon: icons.CoffeeOutlined
     },
     {
-      id: 'util-shadow',
-      title: 'Shadow',
+      id: 'role-chef_manager',
+      title: 'Chef_manager',
       type: 'item',
       url: '/shadow',
-      icon: icons.BarcodeOutlined
+      icon: icons.SnippetsOutlined
+    },
+    {
+      id: 'role-Delivery_boy',
+      title: 'Delivery_boy',
+      type: 'item',
+      url: '/color',
+      icon: icons.InboxOutlined
     }
   ]
 };
