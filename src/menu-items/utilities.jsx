@@ -47,7 +47,7 @@ const utilities = {
       id: 'role-chef_manager',
       title: 'Chef_manager',
       type: 'item',
-      url: '/shadow',
+      url: '/chefManager',
       icon: icons.SnippetsOutlined
     },
     // {
