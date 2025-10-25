@@ -33,14 +33,14 @@ const utilities = {
       id: 'role-customer',
       title: 'Customer',
       type: 'item',
-      url: '/typography',
+      url: '/customer',
       icon: icons.UserOutlined
     },
     {
       id: 'role-chef',
       title: 'Chef',
       type: 'item',
-      url: '/color',
+      url: '/chef',
       icon: icons.CoffeeOutlined
     },
     {
@@ -50,13 +50,13 @@ const utilities = {
       url: '/shadow',
       icon: icons.SnippetsOutlined
     },
-    {
-      id: 'role-Delivery_boy',
-      title: 'Delivery_boy',
-      type: 'item',
-      url: '/color',
-      icon: icons.InboxOutlined
-    }
+    // {
+    //   id: 'role-Delivery_boy',
+    //   title: 'Delivery_boy',
+    //   type: 'item',
+    //   url: '/color',
+    //   icon: icons.InboxOutlined
+    // }
   ]
 };
 

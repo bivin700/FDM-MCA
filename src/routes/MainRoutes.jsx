@@ -8,8 +8,8 @@ import DashboardLayout from 'layout/Dashboard';
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
 
 // render - color
-const Color = Loadable(lazy(() => import('pages/component-overview/color')));
-const Typography = Loadable(lazy(() => import('pages/component-overview/typography')));
+const Chef = Loadable(lazy(() => import('pages/component-overview/chef')));
+const Customer = Loadable(lazy(() => import('pages/component-overview/customer')));
 const Shadow = Loadable(lazy(() => import('pages/component-overview/shadows')));
 
 // render - sample page
@@ -35,12 +35,12 @@ const MainRoutes = {
       ]
     },
     {
-      path: 'typography',
-      element: <Typography />
+      path: 'customer',
+      element: <Customer />
     },
     {
-      path: 'color',
-      element: <Color />
+      path: 'chef',
+      element: <Chef />
     },
     {
       path: 'shadow',
